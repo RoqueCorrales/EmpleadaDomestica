@@ -9,7 +9,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="styleProfile.css">
     </head>
-    <body>
+    <body id="bodyCotizar" >
          <header>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -56,10 +56,10 @@
     </nav>
 
   </header>
-        <div class="container">
+        <div class="container" id= "contenedorCotizar">
     <div class="row">
   <div class="col-md-12">
-            <div class="panel">
+            <div class="panel" id= "contenedorSecundarioCotizar">
                 <form action="/cotiza-tu-empleada-domestica" onsubmit="" id="LimpiezasPreFastAddForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>
                 <input type="hidden" id="backbutton" name="backbutton" value="0">
 
@@ -69,12 +69,12 @@
 
                 <input type="hidden" name="data[Job][id]" id="job_id" value="">                <input type="hidden" name="data[Job][turno]" id="turno" value="1">
                 <div class="limpieza nodefault container-fluid">
-                    <h2 class="align-center"><small>Cotiza sin cargo</small></h2>
+                    <h2 class="align-center"><strong>Cotiza sin cargo</strong></h2>
 
                     <div style="display:block;">
 
-                        <div class="row align-center padding-vertical-1 border-bottom">
-                          <div class="col-xs-6">
+                        <div class="row align-center">
+                          <div class="col-md-12">
                             <label class="btn-radio-fastadd">
                                 <input type="radio" name="data[Job][subcategory_id]" id="frecuencia_salida" value="8" onclick="clickFrecuenciaSalida();" style="opacity:1;">
                                 <div class="button-fastadd badge frequency-text">Con retiro</div>

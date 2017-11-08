@@ -392,3 +392,19 @@ body {
     color: #607D8B;
     overflow: visible;
 }
+#bodyCotizar{
+	background-image: url("cotizar.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+	
+}
+#contenedorCotizar{
+	
+	background-color: rgba(0, 0, 0, 0.3);
+}
+#contenedorSecundarioCotizar{
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+
+}
